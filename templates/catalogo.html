@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Centro de Adopción de Perritos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Perritos en Catálogo</h1>
+    
+    <div style="text-align: center; margin-bottom: 20px;">
+        <a href="{{ url_for('historial') }}" class="btn btn-secondary">Ver historial de adopciones</a>
+    </div>
+    
+    <div class="container">
+        <div class="grid-catalog">
+            {% for dog in dogs %}
+            <div class="dog-card">
+                <img src="{{ url_for('static', filename='img/' + dog.image_url) }}" 
+                     alt="Foto de {{ dog.name }}">
+                
+                <div class="dog-info">
+                    <h2>{{ dog.name }}</h2>
+                    <p><strong>Edad:</strong> {{ dog.age }} años</p>
+                    <p><strong>Raza:</strong> {{ dog.breed }}</p>
+                    
+                    <div class="btn-container">
+                        <a href="{{ url_for('form_adopcion', dog_id=dog.id) }}" class="btn">¡Adoptame!</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

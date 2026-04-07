@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirmar Adopción</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container"> 
+        <h1>Estás a punto de adoptar a {{ dog.name }}</h1>
+        
+        <p><strong>{{ dog.name }}</strong> es un {{ dog.breed }} de {{ dog.age }} años.</p>
+        
+        <hr>
+
+        <h3>Tus Datos (Adoptante):</h3>
+        <form action="/confirmar_adopcion" method="POST">
+            <input type="hidden" name="dog_id" value="{{ dog.id }}">
+            
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            
+            <label for="id_card">Cédula/ID:</label>
+            <input type="text" id="id_card" name="id_card" required>
+            
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
+            
+            <div style="margin-top: 20px; display: flex; gap: 10px;">
+                <input type="submit" value="Confirmar Adopción" class="btn">
+                
+                <a href="{{ url_for('index') }}" class="btn" style="background-color: #95a5a6; text-decoration: none; display: inline-block; padding: 10px 20px; color: white; border-radius: 5px;">
+                    Cancelar y Volver
+                </a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

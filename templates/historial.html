@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Historial de Adopciones</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        table { width:100%; text-align:left; border-collapse: collapse; margin-top: 20px; font-family: Arial, sans-serif; }
+        th, td { padding: 12px; border: 1px solid #ddd; }
+        thead { background-color: #f2f2f2; }
+        tr:hover { background-color: #f5f5f5; }
+        .btn-volver {
+            text-decoration: none; 
+            padding: 10px 20px; 
+            background-color: #4CAF50; 
+            color: white; 
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Historial de Adopciones</h1>
+
+    <div style="margin-bottom: 20px;">
+        <a href="{{ url_for('index') }}" class="btn-volver">
+            Volver al Catálogo
+        </a>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Adoptante</th>
+                <th>Apellido</th>
+                <th>Perrito</th>
+                <th>Raza</th>
+                <th>Fecha de Adopción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for registro in adopciones %}
+            <tr>
+                <td>{{ registro[0] }}</td>
+                <td>{{ registro[1] }}</td>
+                <td>{{ registro[2] }}</td>
+                <td>{{ registro[3] }}</td>
+                <td>{{ registro[4] }}</td>
+                <td>{{ registro[5] }}</td>
+                
+                <td>
+                    <form action="{{ url_for('eliminar_persona', person_id=registro[0]) }}" method="POST" onsubmit="return confirm('¿Estás seguro de eliminar a este adoptante? Se borrarán sus registros de adopción y el perrito volverá al catálogo.');">
+                        <button type="submit" style="background-color: #ff4d4d; color: white; border: none; padding: 7px 12px; cursor: pointer; border-radius: 4px; font-weight: bold;">
+                            Eliminar
+                        </button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>
