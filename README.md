@@ -47,7 +47,7 @@ CENTRO_ADOPCION/
 ├── models.py            
 ├── routes.py            
 └── setup_db.py
-´´
+```
 
 
 ## 📦 Configuración e Instalación
