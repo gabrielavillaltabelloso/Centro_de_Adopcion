@@ -1,11 +1,12 @@
-🐾 # Centro de Adopción
+# 🐾 Centro de Adopción
 
 Una solución web robusta desarrollada con Python (Flask) y MySQL para la gestión eficiente de mascotas y procesos de adopción. Este proyecto está diseñado para ser ligero, eficiente y optimizado para entornos GNU/Linux.
 
-🚀 Sobre el Proyecto
+## 🚀 Sobre el Proyecto
+
 Este sistema permite gestionar el flujo completo de adopción de mascotas, desde la visualización de un catálogo hasta el registro de adoptantes. La aplicación utiliza una arquitectura modular que separa la lógica de negocio, las rutas del servidor y la persistencia de datos, aprovechando la potencia de la terminal de Linux para el control del entorno.
 
-🛠️ Tecnologías Utilizadas
+## 🛠️ Tecnologías utilizadas
 Framework Web: Flask (Python).
 
 Base de Datos: MySQL (Almacenamiento relacional y persistente).
@@ -16,7 +17,7 @@ Entorno: GNU/Linux (Desarrollo y ejecución mediante CLI).
 
 Editor: VS Code.
 
-✨ Características Principales
+## ✨ Características Principales
 Arquitectura Modular: Separación clara entre rutas (routes.py), modelos de datos (models.py) y configuración (config.py).
 
 Gestión CRUD: Registro, consulta y eliminación de adopciones directamente en la base de datos.
@@ -27,7 +28,7 @@ Registro Transaccional: Validación de datos del adoptante antes de procesar la 
 
 Optimización Linux: Configurado para ejecutarse de forma aislada mediante entornos virtuales (venv).
 
-📂 Estructura del Proyecto
+## 📂 Estructura del Proyecto
 Bash
 CENTRO_ADOPCION/
 ├── static/              # Archivos estáticos
@@ -44,7 +45,9 @@ CENTRO_ADOPCION/
 ├── models.py            # Definición de la clase Dog y objetos
 ├── routes.py            # Controladores y lógica de navegación
 └── setup_db.py          # Script de inicialización de la base de datos
-📦 Configuración e Instalación
+
+
+## 📦 Configuración e Instalación
 Requisitos previos
 Sistema Operativo: GNU/Linux.
 
@@ -76,7 +79,8 @@ Bash
 python3 main.py
 Luego, abre tu navegador en: http://127.0.0.1:5000
 
-📸 Vista Previa
+
+## 📸 Vista Previa
 <img width="1920" height="1080" alt="Captura desde 2026-03-26 22-39-35" src="https://github.com/user-attachments/assets/fb15d52c-35ee-4a8b-b261-8c67d3d35d79" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 08-13-27" src="https://github.com/user-attachments/assets/21b6f0f7-b83f-470a-83cc-1681a751d80c" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 10-34-40" src="https://github.com/user-attachments/assets/1741a141-fb01-4c9c-8c66-083133bfe371" />
