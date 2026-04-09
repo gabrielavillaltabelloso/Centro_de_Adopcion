@@ -89,8 +89,8 @@ Luego, abre tu navegador en: http://127.0.0.1:5000
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 10-34-40" src="https://github.com/user-attachments/assets/1741a141-fb01-4c9c-8c66-083133bfe371" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 10-34-27" src="https://github.com/user-attachments/assets/259e33f2-df92-4e22-97ff-7c7c2d1aa246" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 11-11-09" src="https://github.com/user-attachments/assets/fb82d6b9-4787-43a3-b3e9-cb0686920fee" />
-<img width="1920" height="1080" alt="Captura desde 2026-03-27 11-14-29" src="https://github.com/user-attachments/assets/adc7b28c-e560-4cff-a99c-69bdb23b5ccc" />   ---   
-
+<img width="1920" height="1080" alt="Captura desde 2026-03-27 11-14-29" src="https://github.com/user-attachments/assets/adc7b28c-e560-4cff-a99c-69bdb23b5ccc" /> 
+``
 
 
 **Estilización final:**
