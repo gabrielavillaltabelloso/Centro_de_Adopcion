@@ -31,20 +31,22 @@ Optimización Linux: Configurado para ejecutarse de forma aislada mediante entor
 ## 📂 Estructura del Proyecto
 Bash
 CENTRO_ADOPCION/
+```bash
+CENTRO_ADOPCION/
 ├── static/              # Archivos estáticos
-│   ├── img/             # Imágenes de las mascotas (Husky, Pastor, etc.)
+│   ├── img/             # Imágenes de las mascotas
 │   └── style.css        # Hoja de estilos personalizada
 ├── templates/           # Vistas HTML (Jinja2)
-│   ├── catalogo.html    # Galería de mascotas disponibles
-│   ├── confirmacion.html# Formulario de adopción
-│   └── historial.html   # Registro de adopciones realizadas
-├── venv/                # Entorno virtual de Python
-├── config.py            # Credenciales y configuración de la DB
-├── database.py          # Lógica de conexión y consultas SQL
-├── main.py              # Punto de entrada de la aplicación
-├── models.py            # Definición de la clase Dog y objetos
-├── routes.py            # Controladores y lógica de navegación
-└── setup_db.py          # Script de inicialización de la base de datos
+│   ├── catalogo.html
+│   ├── confirmacion.html
+│   └── historial.html
+├── venv/                # Entorno virtual
+├── config.py            
+├── database.py          
+├── main.py              
+├── models.py            
+├── routes.py            
+└── setup_db.py
 
 
 ## 📦 Configuración e Instalación
