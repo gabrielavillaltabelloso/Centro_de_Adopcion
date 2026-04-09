@@ -75,6 +75,7 @@ Bash
 python3 main.py
 Luego, abre tu navegador en: http://127.0.0.1:5000
 
+📸 Vista Previa
 <img width="1920" height="1080" alt="Captura desde 2026-03-26 22-39-35" src="https://github.com/user-attachments/assets/fb15d52c-35ee-4a8b-b261-8c67d3d35d79" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 08-13-27" src="https://github.com/user-attachments/assets/21b6f0f7-b83f-470a-83cc-1681a751d80c" />
 <img width="1920" height="1080" alt="Captura desde 2026-03-27 10-34-40" src="https://github.com/user-attachments/assets/1741a141-fb01-4c9c-8c66-083133bfe371" />
