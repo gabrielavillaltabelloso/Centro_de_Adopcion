@@ -1,4 +1,4 @@
-🐾 Centro de Adopción
+🐾 #Centro de Adopción#
 Una solución web robusta desarrollada con Python (Flask) y MySQL para la gestión eficiente de mascotas y procesos de adopción. Este proyecto está diseñado para ser ligero, eficiente y optimizado para entornos GNU/Linux.
 
 🚀 Sobre el Proyecto
