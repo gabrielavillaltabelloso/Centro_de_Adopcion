@@ -42,3 +42,5 @@ Desde la terminal, lanza el script principal:
 
 Bash
 python3 main.py
+<img width="1920" height="1080" alt="Captura desde 2026-03-27 15-03-39" src="https://github.com/user-attachments/assets/815b266d-5528-4ab7-a1ca-22326cd680de" />
+
