@@ -7,26 +7,26 @@ Una solución web robusta desarrollada con Python (Flask) y MySQL para la gesti�
 Este sistema permite gestionar el flujo completo de adopción de mascotas, desde la visualización de un catálogo hasta el registro de adoptantes. La aplicación utiliza una arquitectura modular que separa la lógica de negocio, las rutas del servidor y la persistencia de datos, aprovechando la potencia de la terminal de Linux para el control del entorno.
 
 ## 🛠️ Tecnologías utilizadas
-Framework Web: Flask (Python).
+**Framework Web:** Flask (Python).
 
-Base de Datos: MySQL (Almacenamiento relacional y persistente).
+**Base de Datos:** MySQL (Almacenamiento relacional y persistente).
 
-Frontend: HTML5 y CSS3 (Diseño personalizado y maquetación visual).
+**Frontend:** HTML5 y CSS3 (Diseño personalizado y maquetación visual).
 
-Entorno: GNU/Linux (Desarrollo y ejecución mediante CLI).
+**Entorno:** GNU/Linux (Desarrollo y ejecución mediante CLI).
 
-Editor: VS Code.
+**Editor:** VS Code.
 
 ## ✨ Características Principales
-Arquitectura Modular: Separación clara entre rutas (routes.py), modelos de datos (models.py) y configuración (config.py).
+**Arquitectura Modular:** Separación clara entre rutas (routes.py), modelos de datos (models.py) y configuración (config.py).
 
-Gestión CRUD: Registro, consulta y eliminación de adopciones directamente en la base de datos.
+**Gestión CRUD:** Registro, consulta y eliminación de adopciones directamente en la base de datos.
 
-Motor de Plantillas: Uso de Jinja2 para renderizar vistas dinámicas (catalogo, historial, confirmación).
+**Motor de Plantillas:** Uso de Jinja2 para renderizar vistas dinámicas (catalogo, historial, confirmación).
 
-Registro Transaccional: Validación de datos del adoptante antes de procesar la adopción.
+**Registro Transaccional:** Validación de datos del adoptante antes de procesar la adopción.
 
-Optimización Linux: Configurado para ejecutarse de forma aislada mediante entornos virtuales (venv).
+**Optimización Linux:** Configurado para ejecutarse de forma aislada mediante entornos virtuales (venv).
 
 ## 📂 Estructura del Proyecto
 Bash
@@ -36,7 +36,7 @@ CENTRO_ADOPCION/
 ├── static/              # Archivos estáticos
 │   ├── img/             # Imágenes de las mascotas
 │   └── style.css        # Hoja de estilos personalizada
-├── templates/           # Vistas HTML (Jinja2)
+├── templates/           # Vistas HTML 
 │   ├── catalogo.html
 │   ├── confirmacion.html
 │   └── historial.html
